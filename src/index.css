@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Nunito;
+    src: url("../src/assets/fonts/Nunito.ttf");
+}
+
+@theme{
+    --font-nunito: Nunito, "sans-serif";
+}
