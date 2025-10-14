@@ -1,10 +1,10 @@
-export default function CountryTile({ flag, name, population, region, capital }){
+export default function CountryTile({ onClick, flag, name, population, region, capital }){
     return(
-        <div className="w-3/4 flex flex-col h-84 bg-white rounded-xl shadow-lg font-nunito mt-8">
+        <div onClick={onClick} className="w-3/4 flex flex-col h-84 bg-white dark:bg-[#2b3743] dark:text-white rounded-xl shadow-lg font-nunito mt-8">
             <img
                 src={flag}
                 alt="Germany Flag"
-                className="rounded-t-xl"
+                className="rounded-t-xl max-h-1/2"
             />
 
             <div className="font-nunito p-6">

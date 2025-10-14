@@ -8,3 +8,5 @@
 @theme{
     --font-nunito: Nunito, "sans-serif";
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
