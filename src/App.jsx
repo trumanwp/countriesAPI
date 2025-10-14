@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from "./components/Navbar.jsx";
 import Search from "./components/Search.jsx";
 import Filter from "./components/Filter.jsx";
+import CountryTile from "./components/CountryTile.jsx";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <Navbar/>
         <Search/>
         <Filter/>
+        <CountryTile/>
 
       </div>
 
