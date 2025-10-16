@@ -5,7 +5,7 @@ export default function CountryDetail({ country, onBack }) {
     const currencyNames = country.currencies
         ? Object.values(country.currencies).map(c => c.name).join(", ")
         : "N/A";
-    // Convert languages object to string
+
     const languageNames = country.languages
         ? Object.values(country.languages).join(", ")
         : "N/A";
@@ -32,7 +32,7 @@ export default function CountryDetail({ country, onBack }) {
                 <p><strong>Languages:</strong> {languageNames}</p>
             </div>
 
-            {/* Add more details as needed */}
+
         </div>
     );
 }
